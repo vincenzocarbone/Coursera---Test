@@ -1,0 +1,92 @@
+body {
+    font-size: 16px;
+    background-color: #00ffff;
+    }
+
+    /** HEADER **/
+    .navbar-header-title{
+        padding-left: 30px;
+    }
+    /** HEADER **/
+    .container-header-nav {
+        background-color: #7fff00;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    /** MAIN CONTENT TITLE **/
+    .main-content-title {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    /** MAIN CONTENT BOX **/
+    .chicken-content {
+        background-color: #00008b;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    /** CHICKEN CONTENT TITLE**/
+    .chicken-content-title {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    
+    /** CHICKEN CONTENT TEXT **/
+    .chicken-content-text {
+        position:  relative;
+        bottom: 15px;
+        font-size: 15px;
+        color: white;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    /** SIMPLE MENU BUTTON DISPLAY RULE **/
+    @media (min-width: 768px) {
+        .navbar-toggle-menu {
+            display: none;
+        }
+    }
+    
+    /** SIMPLE MENU BUTTON DISPLAY RULE **/
+    @media (max-width: 768px) {
+        .navbar-toggle-menu {
+            float: right;
+            margin-right: 30px;
+            background-color: transparent;
+            background-image: none;
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+        .chicken-content {
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+        .chicken-content-text {
+            padding-left: 120px; padding-right: 120px;
+        }
+    }	
+    
+    /** CHICKEN CONTENT TEXT MOBILE VIEW **/
+    @media (max-width: 768px) {
+        .chicken-content-text {
+            padding-left: 30px; padding-right: 30px; padding-bottom: 30px;	
+        }
+    }
+
+    
+
+
+    .nav-item {
+        font-size: medium;
+        margin-left: 300px;
+    }
